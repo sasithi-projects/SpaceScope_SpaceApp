@@ -1,16 +1,33 @@
-# spacescope
+# SpaceScope
 
-A new Flutter project.
+A Flutter-based mobile application that allows users to explore real-time space data using NASA APIs.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+##  Features
+- Browse NASA image and video library
+- View daily Earth images using EPIC API
+- Track near-Earth asteroids in real time (NEO API)
+- Save favourite content locally
+- Clean and responsive UI
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+##  NASA API Integration
+This project uses multiple NASA APIs:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **NASA Image & Video Library API** – search and view space media
+- **EPIC API** – daily Earth imagery from DSCOVR satellite
+- **NEO Web Service (SSD API)** – real-time asteroid tracking data
+
+---
+
+##  Tech Stack
+- Flutter
+- Dart
+- REST APIs
+- JSON parsing
+- Local storage
+
+---
+
